@@ -12,7 +12,7 @@
 
 # About Me
 Hello. 
-I'm at the beginning of the path of learning a programming language
+I'm at the beginning of the path of learning a programming language.
 *********
 
 # Skills
