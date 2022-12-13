@@ -5,9 +5,121 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
- <h1>Hello</h1>
-	<script src="/js/script.js"></script>
+<body><div class="container-centered">
+	<header class="header">
+		<h1>Yana Zheglova</h1>
+     <h2>Junior Frontend Developer</h2>
+	</header>
+	
+    <div class="two-columns">
+      <div class="left-column">
+        <section class="info">
+          <img src="./icons/avatar.jpg" alt="photo-avatar" width="204" height="204">
+          <h1>Yana Zheglova</h1>
+          <h2>Junior Frontend Developer</h2>
+        </section>
+        <main>
+          <section class="contacts">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <img src="./icons/phone.svg" alt="Phone" width="30" height="30">
+                <p>+7 (478) 200-10-215</p>
+              </li>
+              <li>
+                <img src="./icons/email.svg" alt="Email" width="30" height="30">
+                <p>yanazheglova@gmail.com</p>
+              </li>
+              <li>
+                <img src="./icons/telegram.svg" alt="Telegram" width="30" height="30">
+                <p>@YanaZheglova</p>
+              </li>
+                          </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5 </li>
+              <li>CSS3 (SASS/SCSS, BEM methodology)</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+              <li>Figma, Adobe Photoshop</li>
+                   </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>English - A2 (B1 in process…)</p>
+              </li>
+              
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <img src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+            <h3>About Myself</h3>
+          </div>
+          <p>Hello. 
+						I'm at the beginning of the path of learning a programming language.</p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <img src="./icons/education.svg" alt="Education Icon" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Voronezh State Technical University</strong></p>
+           </section>
+        <section class="courses">
+          <div class="sub-header">
+            <img src="./icons/courses.svg" alt="Courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>HTML and CSS Tutorials on https://code-basics.com/</li>
+            <li>JavaScript Manual on learnjavascript.ru</li>
+            <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+          </ul>
+          </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="./icons/code.svg" alt="Code Icon" width="30" height="30">
+            <h3>Code example</h3>
+          </div>
+          <p><strong>example:</strong> 
+          <pre>            <code>
+						navBtn.onclick = () => {
+							if (nav.classList.toggle('open')) {
+								navBtnImg.src = "./img/icons/nav-close.svg";
+								} else {
+									navBtnImg.src = "./img/icons/nav-open.svg";
+							
+								}
+							}
+							</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/YanaZheglova">
+        <img class="github-icon" src="./icons/github.svg" alt="Github" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="./icons/rsschool.svg" alt="Rsschool" width="73" height="26">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
