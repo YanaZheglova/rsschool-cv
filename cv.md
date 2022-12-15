@@ -1,5 +1,6 @@
-![photo](/1.jpg "avatar")  
+![photo](./1.jpg "avatar")  
 # Zheglova Yana
+
 *********
 
 # My Contact Info:
@@ -8,11 +9,13 @@
 - **Telegram:** YanaZheglova
 - **CodePen:** yanazheglova
 - **discord:** YanaZheglova
+- 
 *********
 
 # About Me
 Hello. 
 I'm at the beginning of the path of learning a programming language.
+
 *********
 
 # Skills
@@ -21,6 +24,7 @@ I'm at the beginning of the path of learning a programming language.
 * Git/GitHub
 * Figma, Photoshop
 * VS Code
+* 
 *********
 
 # Code Examples
@@ -39,8 +43,10 @@ if (nav.classList.toggle('open')) {
 # Education
 * Voronezh State Technical University
 * JavaScript https://learn.javascript.ru/
+* 
 *********
 
 # Languages
 English - A2 (B1 in process…)
+
 *********
